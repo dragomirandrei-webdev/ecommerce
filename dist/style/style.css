@@ -156,3 +156,89 @@ nav .nav-shop img {
       padding: 5px 15px 5px 15px;
       border-radius: 50px;
       margin-top: 10px; }
+
+#market .market-grid__one__div1, #market .market-grid__one__div2, #market .market-grid__one__div3,
+#market .market-grid__one__div4 {
+  background-color: #ebe9e9;
+  width: 90%;
+  height: 180px;
+  margin: 2em auto 2em auto; }
+
+#market .market-grid__one__div1 {
+  font-family: "Karla", sans-serif;
+  padding: 10px; }
+  #market .market-grid__one__div1 h3 {
+    color: #d35400;
+    font-size: 18px;
+    font-weight: bold; }
+  #market .market-grid__one__div1 h4 {
+    text-transform: uppercase;
+    font-size: 20px; }
+  #market .market-grid__one__div1 .market-grid__img1 {
+    display: flex; }
+    #market .market-grid__one__div1 .market-grid__img1 img {
+      width: 90px;
+      position: relative;
+      right: 10px; }
+
+#market .market-grid__one__div2 {
+  font-family: "Karla", sans-serif;
+  padding: 10px;
+  position: relative; }
+  #market .market-grid__one__div2 h3 {
+    color: #74b9ff;
+    font-size: 18px;
+    font-weight: bold; }
+  #market .market-grid__one__div2 h4 {
+    text-transform: uppercase;
+    font-size: 20px; }
+  #market .market-grid__one__div2 img {
+    width: 160px;
+    position: absolute;
+    right: 10px;
+    bottom: 0px; }
+
+#market .market-grid__one__div3 {
+  font-family: "Karla", sans-serif;
+  padding: 10px;
+  position: relative; }
+  #market .market-grid__one__div3 h3 {
+    font-size: 18px;
+    color: #d35400;
+    text-align: right;
+    width: 50%;
+    position: absolute;
+    right: 20px;
+    font-weight: bold; }
+  #market .market-grid__one__div3 h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 70px; }
+  #market .market-grid__one__div3 img {
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    left: -10px; }
+
+#market .market-grid__one__div4 {
+  padding: 10px;
+  text-align: center;
+  position: relative; }
+  #market .market-grid__one__div4 h3 {
+    font-family: "Bad Script", cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold; }
+  #market .market-grid__one__div4 h4 {
+    font-family: "Karla", sans-serif;
+    color: #74b9ff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase; }
+  #market .market-grid__one__div4 img {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 45px; }

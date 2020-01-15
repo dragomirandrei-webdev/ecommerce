@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "This is a ecommerce website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragomirandrei-webdev/ecommerce.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "website",
+    "html",
+    "css",
+    "js",
+    "gulp"
+  ],
+  "author": "Dragomir Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragomirandrei-webdev/ecommerce/issues"
+  },
+  "homepage": "https://github.com/dragomirandrei-webdev/ecommerce#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sass": "^4.0.2"
+  }
+}
