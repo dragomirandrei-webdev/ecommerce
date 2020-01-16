@@ -157,16 +157,23 @@ nav .nav-shop img {
       border-radius: 50px;
       margin-top: 10px; }
 
-#market .market-grid__one__div1, #market .market-grid__one__div2, #market .market-grid__one__div3,
-#market .market-grid__one__div4 {
+#market .market-grid__one__div1, #market .market-grid__one__div2 {
   background-color: #ebe9e9;
   width: 90%;
   height: 180px;
   margin: 2em auto 2em auto; }
 
+#market .market-grid__one__div3,
+#market .market-grid__one__div4 {
+  background-color: #ebe9e9;
+  width: 90%;
+  height: 180px;
+  margin: 0em auto 2em auto; }
+
 #market .market-grid__one__div1 {
   font-family: "Karla", sans-serif;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 5px; }
   #market .market-grid__one__div1 h3 {
     color: #d35400;
     font-size: 18px;
@@ -184,7 +191,8 @@ nav .nav-shop img {
 #market .market-grid__one__div2 {
   font-family: "Karla", sans-serif;
   padding: 10px;
-  position: relative; }
+  position: relative;
+  border-radius: 5px; }
   #market .market-grid__one__div2 h3 {
     color: #74b9ff;
     font-size: 18px;
@@ -201,7 +209,8 @@ nav .nav-shop img {
 #market .market-grid__one__div3 {
   font-family: "Karla", sans-serif;
   padding: 10px;
-  position: relative; }
+  position: relative;
+  border-radius: 5px; }
   #market .market-grid__one__div3 h3 {
     font-size: 18px;
     color: #d35400;
@@ -225,7 +234,8 @@ nav .nav-shop img {
 #market .market-grid__one__div4 {
   padding: 10px;
   text-align: center;
-  position: relative; }
+  position: relative;
+  border-radius: 5px; }
   #market .market-grid__one__div4 h3 {
     font-family: "Bad Script", cursive;
     font-size: 18px;
@@ -239,6 +249,234 @@ nav .nav-shop img {
     text-transform: uppercase; }
   #market .market-grid__one__div4 img {
     width: 200px;
-    position: absolute;
-    top: 30px;
-    left: 45px; }
+    position: relative;
+    bottom: 50px; }
+
+#products {
+  padding: 10px;
+  font-family: "Karla", sans-serif; }
+  #products h2 {
+    font-size: 20px;
+    margin-top: 2em; }
+  #products .products__arrivals_item {
+    display: flex;
+    margin-top: 2em; }
+    #products .products__arrivals_item img {
+      width: 100px;
+      border: 1px solid #cccccc; }
+    #products .products__arrivals_item .products__arrivals_content {
+      margin-left: 20px; }
+      #products .products__arrivals_item .products__arrivals_content h3 {
+        font-size: 20px; }
+      #products .products__arrivals_item .products__arrivals_content i {
+        color: #74b9ff; }
+      #products .products__arrivals_item .products__arrivals_content h4 {
+        color: #d35400;
+        position: relative;
+        top: 10px; }
+
+.service-bg {
+  background-color: #74b9ff;
+  width: 100%;
+  height: 100%; }
+
+#service {
+  background-color: #74b9ff;
+  margin-top: 4em;
+  padding: 10px;
+  font-family: "Karla", sans-serif; }
+  #service .service-card {
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+    justify-content: space-around;
+    margin: 2em 0em 2em 0em; }
+    #service .service-card h3 {
+      font-size: 16px; }
+    #service .service-card h4 {
+      font-size: 14px; }
+    #service .service-card i {
+      font-size: 35px; }
+    #service .service-card .service-headset {
+      position: relative;
+      left: 10px; }
+
+.contactUs {
+  margin-top: 2.6em;
+  font-family: "Karla", sans-serif;
+  padding: 10px; }
+  .contactUs h2 {
+    font-size: 25px; }
+  .contactUs li {
+    list-style-type: none; }
+  .contactUs .contact-text i {
+    margin-right: 10px;
+    color: gray;
+    font-size: 18px;
+    margin: 10px 10px 10px 0px; }
+  .contactUs .contact-text .fa-envelope-square {
+    position: relative;
+    right: 2px; }
+  .contactUs .contact-social {
+    display: flex; }
+    .contactUs .contact-social i {
+      font-size: 18px;
+      margin: 0px 10px 0px 0px;
+      color: gray; }
+
+.our-services {
+  font-family: "Karla", sans-serif;
+  padding: 20px;
+  margin-top: 2em; }
+  .our-services h2 {
+    font-size: 25px; }
+  .our-services li {
+    list-style-type: none;
+    margin-top: 5px; }
+
+.extras {
+  font-family: "Karla", sans-serif;
+  padding: 20px;
+  margin-top: 2em; }
+  .extras h2 {
+    font-size: 25px; }
+  .extras li {
+    list-style-type: none;
+    margin-top: 5px; }
+
+@media only screen and (min-width: 360px) {
+  .carousel-text p {
+    padding: 15px; } }
+
+@media only screen and (min-width: 768px) {
+  .carousel-text h1 {
+    font-size: 35px; }
+  .carousel-text h2 {
+    font-size: 40px; }
+  .carousel-text button {
+    margin-top: 2em; }
+  #promo {
+    display: flex;
+    align-items: center;
+    margin: 8em 0em 8em 0em; }
+    #promo .promo-item img {
+      width: 300px; }
+  .market-grid__one {
+    display: grid;
+    grid-template-columns: 4fr 3fr; }
+    .market-grid__one .market-grid__img1 img {
+      width: 120px !important;
+      position: relative;
+      bottom: 20px; }
+  .market-grid__two {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    position: relative;
+    left: 10px; }
+  #products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10px; }
+  #service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; }
+    #service h3 {
+      font-size: 15px !important; }
+    #service h4 {
+      font-size: 12px !important; }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .carousel-text h1 {
+    font-size: 50px; }
+  .carousel-text h2 {
+    font-size: 60px; }
+  .carousel-text button {
+    font-size: 20px; }
+  .carousel-text p {
+    font-size: 22px; }
+  .features__title h1 {
+    font-size: 35px; }
+  .features__title p {
+    font-size: 18px; }
+  .carousel-slick {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 2em; }
+  #features {
+    max-width: 900px;
+    margin: auto; }
+  #promo {
+    max-width: 900px;
+    margin: 8em auto 8em auto; }
+    #promo .promo-content h2 {
+      font-size: 25px; }
+    #promo .promo-content p {
+      font-size: 18px; }
+  #market {
+    max-width: 900px;
+    margin: 0em auto 8em auto; }
+  #products {
+    max-width: 900px;
+    margin: 0em auto 8em auto; }
+  footer {
+    max-width: 900px;
+    margin: auto; }
+  #service {
+    max-width: 900px;
+    margin: auto; }
+  .carousel img {
+    height: 60vh; } }
+
+@media only screen and (min-width: 1280px) {
+  .carousel-slick img {
+    width: 180px; } }
+
+@media only screen and (min-width: 1360px) {
+  .carousel img {
+    height: 70vh; }
+  .carousel-slick img {
+    width: 100px; }
+  .carousel-slick {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 2em; }
+  #features {
+    max-width: 1000px;
+    margin: auto; }
+  #promo {
+    max-width: 1000px;
+    margin: 8em auto 8em auto; }
+    #promo .promo-content h2 {
+      font-size: 30px; }
+    #promo .promo-content p {
+      font-size: 20px; }
+    #promo .promo-content button {
+      font-size: 20px; }
+  #market {
+    max-width: 1000px;
+    margin: 0em auto 8em auto; }
+  #products {
+    max-width: 1000px;
+    margin: 0em auto 8em auto;
+    position: relative;
+    left: 20px; }
+  footer {
+    max-width: 1000px;
+    margin: auto; }
+  #service {
+    max-width: 1000px;
+    margin: auto; }
+  .market-grid__one__div1 h3, .market-grid__one__div2 h3, .market-grid__one__div3 h3,
+  .market-grid__one__div4 h3 {
+    font-size: 23px !important; }
+  .market-grid__one__div1 h4, .market-grid__one__div2 h4, .market-grid__one__div3 h4,
+  .market-grid__one__div4 h4 {
+    font-size: 22px !important; }
+  .market-grid__img1 {
+    position: relative;
+    left: 50px; } }
